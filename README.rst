@@ -1,5 +1,7 @@
 # pymhopt: Python Wrapper for Optimization Algorithms 
 
+PyPI: https://pypi.org/project/pymhopt/0.0.1/
+
 This Python 3 code provides wrapper for symbolic regression providing two implementations a) Genetic Programming with symbolic regression b) multi-objective genetic programming using NSGA-II (https://ieeexplore.ieee.org/document/996017).
 
 ## Dependencies
