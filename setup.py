@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setuptools.setup(
     name='pymhopt',
-    version='0.0.1',
+    version='0.0.2',
     scripts=['pymhopt_package'],
     install_requires=[
         "pandas",
@@ -22,7 +22,7 @@ setuptools.setup(
     long_description_content_type="text/x-rst",
     url='https://github.com/ajayarunachalam/pymhopt/',
     packages=setuptools.find_packages(),
-    py_modules=['pyOP/optimization', 'pyOP/SKLearnInterface', 'pyOP/Evolution/Evolution', 'pyOP/Fitness/Fitness','pyOP/Nodes/BaseNode', 'pyOP/Nodes/SymbolicRegressionNodes','pyOP/Selection/Selection', 'pyOP/Variation/Variation'],
+    py_modules=['pyOP/optimization', 'pyOP/SKLearnInterface', 'pyOP/Evolution/Evolution', 'pyOP/Fitness/FitnessFunction','pyOP/Nodes/BaseNode', 'pyOP/Nodes/SymbolicRegressionNodes','pyOP/Selection/Selection', 'pyOP/Variation/Variation'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

@@ -1,5 +1,5 @@
 from pyOP.Evolution.Evolution import *
-from pyOP.Fitness.Fitness import *
+from pyOP.Fitness.FitnessFunction import *
 from pyOP.Nodes.BaseNode import *
 from pyOP.Nodes.SymbolicRegressionNodes import *
 from pyOP.Selection.Selection import *
